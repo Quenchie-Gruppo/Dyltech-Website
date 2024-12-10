@@ -5,13 +5,14 @@
    https://github.com/Quenchie-Gruppo/Dyltech-Website.git
 2. #### install npm packages
     1. Install backend packages
-    On terminal or Bash
-    cd mern-ecommerce
+    ```On terminal or Bash
+    cd backend
     npm install
     ```
     2. Install frontend packages
-    On terminal or Bash
-    cd client
+    ```On terminal or Bash
+    cd frontend
+
     npm install
 
 
