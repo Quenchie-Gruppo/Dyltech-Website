@@ -1,0 +1,149 @@
+/**
+ * border radius
+ */
+
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 4px;
+}
+
+/* Cart badge */
+.cart-badge,
+.cart-badge:hover {
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 12px;
+  font-style: normal;
+  background: #00c6ff; /* Bright blue for IT brand */
+  color: #fff; /* Contrasting text color */
+}
+
+/* Single product page - product name */
+.name {
+  background: #00c6ff; /* Dark blue for sophistication */
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+/* Shades for sections */
+.black-10 {
+  background: #eaf3fc; /* Light blue for background */
+}
+.black-9 {
+  background: #d5e7f8;
+}
+.black-8 {
+  background: #bfdcf3;
+}
+.black-7 {
+  background: #aacfeb;
+}
+.black-6 {
+  background: #95c3e2;
+}
+.black-5 {
+  background: #80b8db;
+}
+
+/**
+  * product image on card
+  */
+
+.product-img {
+  min-height: 100px;
+}
+
+.jumbotron h2 {
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron h2 {
+    margin-top: 10px;
+  }
+}
+
+/**
+  * jumbotron animation
+  */
+
+  .jumbotron {
+    height: 200px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #003366, #007bff, #23a6d5, #00c6ff);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+  }
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }}
+
+  /* Footer styling */
+footer {
+  background: #003366;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #00c6ff;
+  color: #ffffff;
+}
+
+.navbar a {
+  color: #ffffff;
+}
+
+.navbar a:hover {
+  color: #00c6ff;
+  text-decoration: underline;
+}
